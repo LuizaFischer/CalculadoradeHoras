@@ -1,0 +1,69 @@
+body{
+    background-image: linear-gradient(to bottom, rgb(255, 174, 0), rgb(255, 6, 143));
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+h3{
+    color: white;
+    font-size: 23px;
+}
+.inicial{
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.39), rgba(255, 255, 255, 0.363));
+   
+    color: white;
+}
+input{
+    border-radius: 10px;
+    text-align: center;
+    font-size: medium;
+    width: 130px;
+    height: 30px;
+    border: 2px rgb(255, 6, 143) solid;
+    color:  rgb(255, 0, 140);
+}
+input::placeholder{
+    color:  rgb(255, 0, 140);
+}
+input:focus{
+    border: 0;
+    outline: none;
+    color:  rgb(255, 0, 140);
+}
+button{
+   background-color: rgb(255, 255, 255);
+   width: 80px;
+   height: 30px;
+   border-radius: 20px;
+   transition: 0.5s;
+   border: 2px rgb(255, 6, 143) solid;
+   color: rgb(255, 0, 140);
+   cursor: pointer;
+   transition: 0.7s all;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+    width: 90px;
+   height: 40px;
+}
+.resultado{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgba(240, 248, 255, 0);
+    font-size: 10px;
+}
+h4{
+    color: rgba(240, 248, 255, 0);
+    font-size: larger;
+}
